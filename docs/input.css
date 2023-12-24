@@ -12,13 +12,6 @@ body {
 .hero {
   font-family: "Montserrat", sans-serif;
 }
-/* @media only screen and (min-width: 660px){
-    .img{
-background-size: cover;
-background-position-x: center;
-background-size: 144px;
-    }
-} */
 
 @media only screen and (max-width: 550px) {
   .nav {
@@ -227,6 +220,7 @@ background-size: 144px;
     opacity: 1;
   }
 }
+
 /*  */
 .flexbox-container {
   display: flex;
@@ -393,8 +387,8 @@ background-size: 144px;
 }
 /* bagicha ani */
 .fade-in-left {
-  -webkit-animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in-left 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-left 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 @-webkit-keyframes fade-in-left {
   0% {
@@ -421,8 +415,8 @@ background-size: 144px;
   }
 }
 .fade-in {
-  -webkit-animation: fade-in 5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 @-webkit-keyframes fade-in {
   0% {
