@@ -20,3 +20,4 @@ module.exports = {
 };
 
 // npx tailwindcss -i ../input.css -o ../output.css --watch
+// npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch
