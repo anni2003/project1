@@ -292,7 +292,7 @@ body {
 }
 .flexboxitem1 {
   min-height: 800px;
-  width: 400px;
+  width: 350px;
 }
 .fade-in {
   -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -316,11 +316,11 @@ body {
 }
 .flexboxitem2 {
   min-height: 800px;
-  width: 400px;
+  width: 350px;
 }
 .flexboxitem3 {
   min-height: 800px;
-  width: 400px;
+  width: 350px;
 }
 /*  */
 .flexbox-cont {
