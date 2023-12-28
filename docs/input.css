@@ -15,13 +15,13 @@ body {
 
 @media only screen and (max-width: 550px) {
   .i1 {
-    width: 120px;
+    width: 90px;
   }
 }
 
 @media only screen and (max-width: 650px) {
   .nav {
-    font-size: small;
+    font-size: x-small;
     size: 20px;
   }
 }
@@ -32,12 +32,12 @@ body {
 
 @media only screen and (max-width: 550px) {
   .T {
-    font-size: 60%;
+    font-size: 70%;
   }
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 604px) {
   .A {
-    font-size: 100%;
+    font-size: xx-large;
   }
 }
 
@@ -54,20 +54,22 @@ body {
 .project {
   background-color: #f0ece7;
 }
-.container {
-  max-width: 100px;
-  width: 90%;
+/* .container {
+  max-width: 50px;
+  width: 50%;
   margin: auto;
   /* padding: 15px; */
-}
+
 .photo_gallery {
   display: flex;
   /* gap: 7px; */
 }
 .column {
   display: flex;
-  flex-direction: column;
-  gap: 0.5px;
+  flex-direction: row;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
 }
 .photos img {
   width: 100%;
@@ -86,6 +88,11 @@ body {
 /* project */
 .A {
   font-family: "DM Serif Display", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .A {
+    text-size-adjust: 100px;
+  }
 }
 * {
   margin: 0;
@@ -322,7 +329,7 @@ body {
   min-height: 800px;
   width: 350px;
 }
-/*  */
+/* porsh */
 .flexbox-cont {
   height: 100%;
   background-color: #f0ece7;
@@ -343,7 +350,6 @@ body {
 }
 
 .flexboxitem-3 {
-  background-color: transparent;
   min-height: 270px;
   width: 290px;
 }
