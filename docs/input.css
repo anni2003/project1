@@ -40,7 +40,7 @@ body {
     font-size: 70%;
   }
 }
-@media only screen and (min-width: 604px) {
+@media only screen and (min-width: 550px) {
   .A {
     font-size: xx-large;
   }
