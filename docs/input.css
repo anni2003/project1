@@ -341,17 +341,17 @@ body {
 
 .flexboxitem-1 {
   min-height: 400px;
-  width: 300px;
+  width: 312px;
 }
 
 .flexboxitem-2 {
   min-height: 400px;
-  width: 290px;
+  width: 412px;
 }
 
 .flexboxitem-3 {
-  min-height: 270px;
-  width: 290px;
+  min-height: 400px;
+  width: 412px;
 }
 .flexbox-cont {
   display: flex;
